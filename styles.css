@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Fondo y alineación */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f4f8, #dbeafe);
+  color: #1e293b;
+}
+
+/* Contenedor principal */
+.container {
+  background: #ffffff;
+  padding: 2.5rem 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-4px);
+}
+
+/* Título y texto */
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+/* Enlaces */
+.links a {
+  display: block;
+  margin: 0.6rem 0;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  background: #3b82f6;
+  color: white;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.links a:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Pie de página */
+footer {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
